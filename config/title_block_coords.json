@@ -1,0 +1,64 @@
+{
+  "page_points": {"width": 1224, "height": 792},
+  "render_dpi": 300,
+  "page_pixels_at_300dpi": {"width": 5100, "height": 3300},
+  "note": "Coordinates are ratios of page dimensions. Pages are 17x11 inch landscape (ANSI B). Calibrated against testFile1HDR.pdf page 1.",
+  "regions": {
+    "full_title_block": {
+      "description": "Complete title block region, bottom-right quadrant",
+      "x_start_ratio": 0.38,
+      "y_start_ratio": 0.75,
+      "x_end_ratio": 1.0,
+      "y_end_ratio": 1.0
+    },
+    "top_right_grid": {
+      "description": "FHWA info box: region, state, project no, sheet no, total sheets",
+      "x_start_ratio": 0.80,
+      "y_start_ratio": 0.0,
+      "x_end_ratio": 1.0,
+      "y_end_ratio": 0.12
+    },
+    "revision_table": {
+      "description": "Release table: NO, DESCRIPTION OF RELEASE, DATE, DESIGN/DRAWN/CHECKED, NAME, DATE columns",
+      "x_start_ratio": 0.38,
+      "y_start_ratio": 0.82,
+      "x_end_ratio": 0.76,
+      "y_end_ratio": 0.93
+    },
+    "division_title": {
+      "description": "ADOT division name, drawing title (SR 202L / RETAINING WALL...), station range, and LOCATION line",
+      "x_start_ratio": 0.62,
+      "y_start_ratio": 0.80,
+      "x_end_ratio": 0.93,
+      "y_end_ratio": 0.96
+    },
+    "stamp_area": {
+      "description": "Engineer stamp seal (circular), right side of title block",
+      "x_start_ratio": 0.91,
+      "y_start_ratio": 0.78,
+      "x_end_ratio": 1.0,
+      "y_end_ratio": 0.93
+    },
+    "firm_area": {
+      "description": "Firm logo/name area: CONNECT 202, SALT RIVER SEGMENT, Stanley Consultants, etc.",
+      "x_start_ratio": 0.38,
+      "y_start_ratio": 0.92,
+      "x_end_ratio": 0.72,
+      "y_end_ratio": 0.98
+    },
+    "bottom_info_bar": {
+      "description": "Bottom bar with route, TRACS NO, project number, sheet/total. Spans full width.",
+      "x_start_ratio": 0.38,
+      "y_start_ratio": 0.95,
+      "x_end_ratio": 1.0,
+      "y_end_ratio": 1.0
+    },
+    "rw_number_area": {
+      "description": "RW-003.XXX and sheet count at far right",
+      "x_start_ratio": 0.91,
+      "y_start_ratio": 0.91,
+      "x_end_ratio": 1.0,
+      "y_end_ratio": 1.0
+    }
+  }
+}

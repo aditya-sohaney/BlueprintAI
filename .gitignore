@@ -1,0 +1,35 @@
+# Environment
+.env
+venv/
+venv312/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Data (large files)
+data/raw/
+data/processed/
+data/title_blocks/
+data/samples/
+data/database/
+data/exports/
+data/catalog/
+data/images/
+
+# Ollama models
+*.gguf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+data/logs/
+data/uploads/
+screenshots/

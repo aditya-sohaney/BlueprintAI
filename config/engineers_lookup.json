@@ -1,0 +1,45 @@
+{
+  "engineers": {
+    "BRIAN A. GRIMALDI": {
+      "aliases": ["BRIAN A GRIMALDI", "B GRIMALDI", "BRIAN GRIMALDI", "BRIAN A. GIRALDO"],
+      "associated_division": "BUILDER GROUP"
+    },
+    "MICHAEL A. MCVICKERS": {
+      "aliases": ["MICHAEL MCVICKERS", "M MCVICKERS", "MICHAEL A MCVICKERS"],
+      "associated_division": "ROADWAY DESIGN SERVICES"
+    },
+    "JAMES O. LANCE": {
+      "aliases": ["JAMES LANCE", "J LANCE", "JAMES O LANCE"],
+      "associated_division": "ROADWAY DESIGN SERVICES"
+    },
+    "JOHN M. LANE": {
+      "aliases": ["JOHN LANE", "J LANE", "JOHN M LANE"],
+      "associated_division": "BUILDER GROUP"
+    },
+    "BRIAN P. DAVIS": {
+      "aliases": ["BRIAN DAVIS", "B DAVIS", "BRIAN P DAVIS"],
+      "associated_division": "ROADWAY DESIGN SERVICES"
+    },
+    "KORY KRAMER": {
+      "aliases": ["K KRAMER", "KORY J KRAMER"],
+      "associated_division": "ROADWAY DESIGN SERVICES"
+    }
+  },
+  "initials_to_names": {
+    "JDJ": "J.D. Johnson",
+    "NRD": "N.R. Doe",
+    "NJD": "N.J. Doe",
+    "KRT": "K.R. Thomas",
+    "BAG": "B.A. Grimaldi",
+    "BPD": "B.P. Davis",
+    "HRD": "H.R. Doe",
+    "CAC": "C.A. Clark",
+    "LES": "L.E. Smith",
+    "SED": "S.E. Doe",
+    "JML": "J.M. Lane",
+    "LMR": "L.M. Roe",
+    "EAM": "E.A. Martin",
+    "BPO": "B.P. Owen",
+    "BAC": "B.A. Clark"
+  }
+}

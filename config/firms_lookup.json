@@ -1,0 +1,38 @@
+{
+  "firms": {
+    "connect_202_partners": {
+      "full_name": "CONNECT 202 PARTNERS",
+      "aliases": [
+        "CONNECT 202 PARTNERS",
+        "CCNNECT 202 PARTNERS",
+        "CCONNECT 202 PARTNERS",
+        "CONNEC202 PARTNERS",
+        "CONNECT 232 PARTNERS",
+        "CONNECT 22 PARTNERS",
+        "CCNNECT22 PARTNERS",
+        "CONNECT PARTNERS",
+        "CONNECT 2.2",
+        "Connect 2 2",
+        "CONNECT2.2",
+        "CONNECT 22",
+        "C0NNECT 202 PARTNERS",
+        "CONNNECT 202 PARTNERS",
+        "CCNNECT202 PARTNERS"
+      ],
+      "segments": ["SALT RIVER SEGMENT CI", "SALT RIVER SEGMENT C2", "PAPAGO SEGMENT DI"],
+      "note": "Joint venture partnership for ADOT I-10/SR-202L project"
+    },
+    "ethos": {
+      "full_name": "ethos",
+      "aliases": ["ethos", "ETHOS", "lethos", "ethos engineering"]
+    },
+    "stantec": {
+      "full_name": "Stantec Consulting",
+      "aliases": ["Stantec", "Stanley Consultants", "Stantec Consultants", "Stantec Consulting"]
+    },
+    "nf_res": {
+      "full_name": "NF Res Inc.",
+      "aliases": ["NF Res", "NFRes", "NF Res Inc", "NF Res Inc."]
+    }
+  }
+}

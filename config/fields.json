@@ -1,0 +1,168 @@
+{
+  "fields": {
+    "drawing_title": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["RETAINING WALL", "PLAN SHEET", "WALL ELEVATION"],
+      "region": "division_title",
+      "description": "Drawing title from title block center-right area"
+    },
+    "location": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["LOCATION"],
+      "region": "route_location",
+      "description": "Highway corridor description"
+    },
+    "route": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["ROUTE"],
+      "pattern": "SR\\s*\\d{3}[A-Z]?",
+      "region": "route_location"
+    },
+    "project_number": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["PROJECT NO.", "PROJECT NO"],
+      "pattern": "\\d{3}-[A-Z]-[A-Z(]?\\d{3,4}[A-Z)]*[A-Z]?",
+      "region": "top_right_grid"
+    },
+    "sheet_number": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["SHEET"],
+      "pattern": "\\d{4}",
+      "region": "top_right_grid",
+      "embedded_text_available": true
+    },
+    "total_sheets": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["TOTAL SHEETS"],
+      "pattern": "\\d{4}",
+      "region": "top_right_grid"
+    },
+    "initial_date": {
+      "tier": 1,
+      "type": "date",
+      "required": true,
+      "anchors": ["INITIAL", "A "],
+      "pattern": "\\d{2}/\\d{2}/\\d{4}",
+      "region": "revision_table",
+      "row_label": "A"
+    },
+    "initial_designer": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["DESIGN", "DESN"],
+      "region": "revision_table",
+      "row_label": "A"
+    },
+    "final_date": {
+      "tier": 1,
+      "type": "date",
+      "required": true,
+      "anchors": ["FINAL", "B "],
+      "pattern": "\\d{2}/\\d{2}/\\d{4}",
+      "region": "revision_table",
+      "row_label": "B"
+    },
+    "final_drafter": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["DRAWN"],
+      "region": "revision_table",
+      "row_label": "B"
+    },
+    "rfc_date": {
+      "tier": 1,
+      "type": "date",
+      "required": true,
+      "anchors": ["RFC", "D "],
+      "pattern": "\\d{2}/\\d{2}/\\d{4}",
+      "region": "revision_table",
+      "row_label": "D"
+    },
+    "rfc_checker": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["CHECKED", "CKCKD", "CKCD"],
+      "region": "revision_table",
+      "row_label": "D"
+    },
+    "rw_number": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["RW-"],
+      "pattern": "RW-\\d{3}\\.\\d{3}",
+      "region": "rw_number_area"
+    },
+    "tracs_number": {
+      "tier": 1,
+      "type": "text",
+      "required": true,
+      "anchors": ["TRACS NO.", "TRACS"],
+      "pattern": "[A-Z]\\d{4}\\s*[A-Z]{2,3}",
+      "region": "tracs_area"
+    },
+    "engineer_stamp_name": {
+      "tier": 2,
+      "type": "text",
+      "required": false,
+      "region": "stamp_area",
+      "vlm_prompt": "Read the full name from the circular professional engineer stamp seal. Known names: BRIAN A. GRIMALDI, MICHAEL A. MCVICKERS, JAMES O. LANCE, JOHN M. LANE, BRIAN P. DAVIS, KORY KRAMER"
+    },
+    "firm": {
+      "tier": 2,
+      "type": "text",
+      "required": false,
+      "region": "firm_area",
+      "vlm_prompt": "Identify the engineering firm name and any partner firms. Known firms: CONNECT 2.2, ethos, NF Res Inc, Stantec Consulting, SALT RIVER SEGMENT CI, PAPAGO SEGMENT DI"
+    },
+    "structure_number": {
+      "tier": 2,
+      "type": "text",
+      "required": false,
+      "pattern": "\\d{3}-\\d{4}-[A-Z]",
+      "region": "full_title_block",
+      "vlm_prompt": "Read the structure identification number (format: XXX-XXXX-X)"
+    },
+    "milepost": {
+      "tier": 1,
+      "type": "text",
+      "required": false,
+      "pattern": "STA\\s+\\d{3,4}\\+\\d{2}",
+      "region": "division_title",
+      "description": "Derived from station numbers in drawing title"
+    }
+  },
+  "derived_fields": {
+    "is_bridge_drawing": {
+      "logic": "True if any of ['BRIDGE', 'STRUCTURE', 'SPAN'] in drawing_title.upper()",
+      "type": "boolean"
+    },
+    "design_duration_days": {
+      "logic": "(final_date - initial_date).days",
+      "type": "integer"
+    },
+    "rfc_duration_days": {
+      "logic": "(rfc_date - initial_date).days",
+      "type": "integer"
+    },
+    "division": {
+      "logic": "Extracted from 'BUILDER GROUP' or 'ROADWAY DESIGN SERVICES' text in division title region",
+      "type": "text"
+    }
+  }
+}

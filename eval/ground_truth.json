@@ -1,0 +1,77 @@
+{
+  "pdf": "testFile1HDR.pdf",
+  "pages": {
+    "1": {
+      "drawing_title": "SR 202L RETAINING WALL PLAN SHEET STA 3079+00 TO STA 3093+00",
+      "location": "I-10 (MARICOPA) - I-10 (PAPAGO)",
+      "route": "SR 202L",
+      "project_number": "202-D-(200)S",
+      "initial_date": "04/25/2016",
+      "final_date": "06/02/2017",
+      "rfc_date": "08/25/2017",
+      "rw_number": "RW-003.107",
+      "tracs_number": "H8827 OIC",
+      "engineer_stamp_name": "BRIAN A. GRIMALDI",
+      "firm": "CONNECT 2.2 / SALT RIVER SEGMENT CI",
+      "is_bridge_drawing": false,
+      "division": "BUILDER GROUP"
+    },
+    "2": {
+      "drawing_title": "ELLIOT RD RETAINING WALL PLAN STA 3025+00 TO STA 3040+00",
+      "location": "I-10 (MARICOPA) - I-10 (PAPAGO)",
+      "route": "SR 202L",
+      "project_number": "202-D-(200)S",
+      "initial_date": "08/26/2016",
+      "final_date": "11/28/2016",
+      "rfc_date": "01/20/2017",
+      "rw_number": "RW-003.108",
+      "tracs_number": "H8827 OIC",
+      "engineer_stamp_name": "MICHAEL A. MCVICKERS",
+      "firm": "ethos",
+      "is_bridge_drawing": false,
+      "division": "ROADWAY DESIGN SERVICES"
+    },
+    "4": {
+      "drawing_title": "LOWER BUCKEYE RD RETAINING WALL PLAN STA 3303+00 TO STA 3315+00",
+      "location": "I-10 (MARICOPA) - I-10 (PAPAGO)",
+      "route": "SR 202L",
+      "project_number": "202-D-(200)S",
+      "initial_date": "04/12/2016",
+      "final_date": "07/14/2017",
+      "rfc_date": "08/25/2017",
+      "rw_number": "RW-003.111",
+      "tracs_number": "H8827 OIC",
+      "engineer_stamp_name": "MICHAEL A. MCVICKERS",
+      "firm": "ethos",
+      "is_bridge_drawing": false
+    },
+    "7": {
+      "drawing_title": "RETAINING WALL PLAN SHEET STA 3374+00 TO STA 3387+00",
+      "location": "I-10 (MARICOPA) - I-10 (PAPAGO)",
+      "route": "SR 202L",
+      "project_number": "202-D-(200)S",
+      "initial_date": "01/09/2017",
+      "final_date": "06/12/2017",
+      "rfc_date": "12/25/2018",
+      "rw_number": "RW-003.114",
+      "tracs_number": "H8827 OIC",
+      "engineer_stamp_name": "BRIAN P. DAVIS",
+      "firm": "Stantec Consulting",
+      "is_bridge_drawing": false
+    },
+    "10": {
+      "drawing_title": "RETAINING WALL PLAN SHEET STA 3247+00 TO STA 3258+00",
+      "location": "I-10 (MARICOPA) - I-10 (PAPAGO)",
+      "route": "SR 202L",
+      "project_number": "202-D-(200)S",
+      "initial_date": "03/07/2017",
+      "final_date": "06/16/2017",
+      "rfc_date": "08/08/2017",
+      "rw_number": "RW-003.117",
+      "tracs_number": "H8827 OIC",
+      "engineer_stamp_name": "JOHN M. LANE",
+      "firm": "CONNECT 2.2 / SALT RIVER SEGMENT C2",
+      "is_bridge_drawing": false
+    }
+  }
+}
